@@ -1,4 +1,10 @@
 class Node(object):
+   """
+   Basic Node Class for Trie Implementation
+
+   Keeps track of whether this node marks the end of a word. Also has a
+   dict with characters that point to subsequent nodes.
+   """
 
    def __init__(self):
       self.charMap = dict()
