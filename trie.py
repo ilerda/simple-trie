@@ -1,6 +1,15 @@
 from node import Node
 
 class Trie(object):
+   """
+   Basic Trie Implementation.
+
+   The main methods are
+   - insert - to insert words individually
+   - delete - to delete a word or returns if it is not present
+   - has_prefix - check if any containing words have this prefix
+   - has_word - check if a word is present. Must have the isWord flag
+   """
 
    def __init__(self):
       self.root = Node()
